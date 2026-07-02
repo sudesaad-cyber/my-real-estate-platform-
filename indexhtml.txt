@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>منصة عقار</title>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+    <header class="bg-slate-900 text-white p-4 text-center shadow-lg">
+        <h1 class="text-xl font-bold">منصة عقار - للعروض المميزة</h1>
+    </header>
+
+    <main class="p-4 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+        
+        <div class="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200">
+            <div class="h-40 bg-gray-300 flex items-center justify-center text-gray-500">صورة العقار</div>
+            <div class="p-4">
+                <h2 class="text-lg font-bold">فيلا فاخرة - حي النرجس</h2>
+                <p class="text-gray-600 my-2">المساحة: 500م - السعر: 2,500,000 ريال</p>
+                <a href="https://wa.me/966XXXXXXXXX" class="block text-center bg-emerald-600 text-white py-2 rounded-lg font-bold hover:bg-emerald-700">تواصل عبر واتساب</a>
+            </div>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200">
+            <div class="h-40 bg-gray-300 flex items-center justify-center text-gray-500">صورة العقار</div>
+            <div class="p-4">
+                <h2 class="text-lg font-bold">شقة مودرن - حي الياسمين</h2>
+                <p class="text-gray-600 my-2">المساحة: 150م - السعر: 850,000 ريال</p>
+                <a href="https://wa.me/966XXXXXXXXX" class="block text-center bg-emerald-600 text-white py-2 rounded-lg font-bold hover:bg-emerald-700">تواصل عبر واتساب</a>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="text-center p-6 text-sm text-gray-500">
+        جميع الحقوق محفوظة © 2026
+    </footer>
+
+</body>
+</html>
